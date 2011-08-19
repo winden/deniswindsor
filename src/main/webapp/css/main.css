@@ -1,0 +1,18 @@
+#page {
+	margin: 36px auto;
+	width: 90%;
+	background: #A4C639;
+	background-color: #A4C639;
+}
+
+body {
+	font-family: Arial;
+	margin: 30px;
+	background: #f3f3f3;
+	background-color: #f3f3f3;
+}
+
+h1 {
+	color: #D33381;
+	border-bottom: black 3px dotted;
+}
