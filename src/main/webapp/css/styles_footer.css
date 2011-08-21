@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+.footer {
+ 	background-color: #A4C639; 
+ 	color: #777777;
+ 	font-size: 8pt;
+	font-weight: bold;
+	text-align: center;
+}

@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+.menu_panel {
+	background: #fcfff4; /* old browsers */
+	background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 59%, #b3bead 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfff4), color-stop(59%,#dfe5d7), color-stop(100%,#b3bead)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 ); /* ie */	
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#fcfff4, endColorstr=#b3bead)";
+	color: #A4C639; 
+	margin: 0px;
+	padding: 2px;
+	border: 1px solid #777777;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+.menu_link {
+  font-weight: bold;
+}
+
+.menu_link a {
+	text-decoration: none;
+	color: #48802C;
+}
