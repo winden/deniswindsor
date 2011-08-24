@@ -1,71 +1,48 @@
 @CHARSET "UTF-8";
 
-.background {
-	background: #f3f3f3;
+@import url("styles_footer.css");
+
+.whole_page {
+
+}
+
+.whole_body {
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
+}
+
+.white_background {
+	background-color: #ffffff;
+}
+
+.green_background {
+	background-color: #c0e587;
+}
+
+.grey_backround {
 	background-color: #f3f3f3;
 }
 
-.central_background {
-	/* For WebKit (Safari, Google Chrome etc) */
-	background: -webkit-gradient(linear, left top, left bottom, from(#A4C639), to(#f3f3f3));
-	/* For Mozilla/Gecko (Firefox etc) */
-	background: -moz-linear-gradient(top, #A4C639, #f3f3f3);
-	/* For Internet Explorer 5.5 - 7 */
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#A4C639, endColorstr=#f3f3f3);
-	/* For Internet Explorer 8 */
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#A4C639, endColorstr=#f3f3f3)";
+.blog {
+	margin: 0 auto 53px;
+	width: 93.75%; /* 900px / 960px */
 }
 
-.default_font {
-	font-family:sans-serif,serif;
+.blog .main {
+	float: left;
+	width: 62.8888889%; /* 566px / 900px */
 }
 
-.shadow {
-	-moz-box-shadow: 1px 1px 1px #777777;
-	-webkit-box-shadow: 1px 1px 1px #777777;
-	box-shadow: 1px 1px 1px #777777;
-	/* For IE 8 */
-	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#777777')";
-	/* For IE 5.5 - 7 */
-	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#777777');
+.blog .other {
+	float: right;
+	width: 36.7777778%; /* 331px / 900px */
 }
 
-.action {
-	font-weight: bold;
-	color: #48802C;
+.blog .article {
+	font-size: 0.875em;			/* 14px / 16px */
+	padding: 40px 8.48056537%;	/* 48px / 566px */
 }
 
-.white_square {
-	background: #f3f3f3;
-	background-color: #f3f3f3;
-	border: 1px solid #f3f3f3;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	width: 440px;
-	padding: 9px;
-}
-
-.title,
-h1{
-	color: black;
-	font-size: 16pt;
-	margin: 0px 0px 4px 4px;
-}
-
-.sub_title,
-h4 {
-	color: black;
-	font-size: 14pt;
-	margin: 0px 0px 4px 4px;
-}
-
-.text,
-p {
-	color: black;
-	font-size: 12pt;
-	margin: 0px 0px 4px 4px;
-}
-a:hover {
-	color: #48802C;
+.lede {
+	padding: 0.8em 5.33333333; /* 48px / 900px */
+	
 }

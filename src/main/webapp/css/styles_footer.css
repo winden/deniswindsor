@@ -1,9 +1,7 @@
 @CHARSET "UTF-8";
 
-.footer {
- 	background-color: #A4C639; 
- 	color: #777777;
- 	font-size: 8pt;
-	font-weight: bold;
+#footer {
 	text-align: center;
+	font-size: 0.8125em;	/* 13/16 */
+	color: #777777;
 }

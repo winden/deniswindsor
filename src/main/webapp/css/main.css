@@ -1,23 +1,6 @@
-#page {
-	margin: 36px auto;
-	width: 90%;
-	background-color: #f3f3f3;
-}
+@CHARSET "UTF-8";
 
-body {
-	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
-	background-color: #f3f3f3;
-}
-
-h1 {
-	color: #D33381;
-	border-bottom: black 3px dotted;
-}
-
-#footer {
-	background-color: #ffffff;
-}
-
-#header {
-	background-color: #c0e587;
-}
+@import url("reset.css");
+@import url("float_fix.css");
+@import url("layout.css");
+@import url("styles.css");

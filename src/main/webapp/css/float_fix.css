@@ -1,0 +1,14 @@
+/*-  SELF-CLEARING FLOATS
+----------------------------------------------------------------------*/
+.mod:after,
+.section:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.mod,
+.section {
+	zoom: 1;
+}

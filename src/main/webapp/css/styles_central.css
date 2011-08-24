@@ -1,5 +1,23 @@
 @CHARSET "UTF-8";
 
+
+h1 {
+	font-size: 1.5em; /* 24px / 16px */
+	font-style: italic;
+	font-weight: normal;
+}
+
+h1 a {
+	font-weight: bold;
+	font-size: 0.458333333333em; /* 11px / 24px */
+	color: #747474;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+
 .central_footer {
 	background: #fcfff4; /* old browsers */
 	background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 59%, #b3bead 100%); /* firefox */
