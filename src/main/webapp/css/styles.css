@@ -5,8 +5,7 @@
 
 body {
 	background: #CECECE url("/images/body.gif");
-	background: url("/images/london.png") repeat-x -50% 0px,
-		url("/images/london.png") repeat-x 0% 100%,
+	background: url("/images/london.png") repeat-x 0% 0px,
 		url("/images/body.gif") repeat -50% 0,
 		#CECECE;
 	color: #000000;
