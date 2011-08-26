@@ -1,7 +1,6 @@
 @CHARSET "UTF-8";
 
 #page {
-	margin: 36px auto;
+	margin: 36px auto 1px auto;
 	width: 90%;
-	position: relative;
 }

@@ -1,13 +1,33 @@
 @CHARSET "UTF-8";
 
 @import url("styles_footer.css");
+@import url("styles_header.css");
 
-.whole_page {
-
+body {
+	background: #CECECE url("/images/body.gif");
+	background: url("/images/london.png") repeat-x -50% 0px,
+		url("/images/london.png") repeat-x 0% 100%,
+		url("/images/body.gif") repeat -50% 0,
+		#CECECE;
+	color: #000000;
+	font: normal 100%/1.5 Verdana, Arial, Geneva, Helvetica, sans-serif;
+}
+.ie7 body {
+	background: #CECECE url("/images/body.gif");	/* Stupid IE7 bug is stupid. */
 }
 
-.whole_body {
-	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
+img {
+	max-width: 100%;
+}
+.ie6 img {
+	width: 100%;
+}
+
+.half_transparent {
+	/* for IE */
+	filter:alpha(opacity=60);
+	/* CSS3 standard */
+	opacity:0.6;
 }
 
 .white_background {
@@ -44,5 +64,15 @@
 
 .lede {
 	padding: 0.8em 5.33333333; /* 48px / 900px */
-	
+	position: relative;
+	z-index: 100;
+}
+
+.lede:after {
+	content: ".";
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
 }
