@@ -1,5 +1,6 @@
 /*-  SELF-CLEARING FLOATS
 ----------------------------------------------------------------------*/
+.float_fix:after,
 .mod:after,
 .section:after {
 	content: ".";
@@ -7,7 +8,9 @@
 	height: 0;
 	clear: both;
 	visibility: hidden;
+	font-size: 0;
 }
+.float_fix,
 .mod,
 .section {
 	zoom: 1;

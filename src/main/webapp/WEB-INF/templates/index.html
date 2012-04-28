@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <title><%= request.getAttribute('contentTitle') %></title>
+        
+        <link rel="shortcut icon" href="/images/dw_32.png" type="image/png">
+        <link rel="icon" href="/images/dw_32.png" type="image/png">
+        
+        <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+    </head>
+	<body id="<%= request.getAttribute('contentBodyId') %>">
+		<div id="page">
+			<% include '/WEB-INF/includes/header.html' %>
+			<% include '/html/'+ request.getAttribute('contentHtml') %>
+			<% include '/WEB-INF/includes/footer.html' %>
+		</div>
+	</body>
+</html>

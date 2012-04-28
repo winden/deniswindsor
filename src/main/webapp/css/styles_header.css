@@ -1,59 +1,15 @@
 @CHARSET "UTF-8";
 
 .logo {
-	position: relative;
-	z-index: 100;
-	background: #c0e587;
 	float: left;
 	width: 16.875%;	/* 162 / 960 */
 }
-.logo:after {
-	content: ".";
-	height: 100%;
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	
-	-moz-box-shadow: -1px 1px 0 #c0e587,
-		-2px 2px 0 #c0e587,
-		-3px 3px 0 #c0e587,
-		-4px 4px 0 #c0e587,
-		-5px 5px 0 #c0e587,
-		-6px 6px 0 #c0e587,
-		-7px 7px 0 #c0e587,
-		-8px 8px 0 #c0e587,
-		-9px 9px 0 #c0e587,
-		-10px 10px 0 #c0e587,
-		-11px 11px 0 #c0e587;
-	-webkit-box-shadow: -1px 1px 0 #c0e587,
-		-2px 2px 0 #c0e587,
-		-3px 3px 0 #c0e587,
-		-4px 4px 0 #c0e587,
-		-5px 5px 0 #c0e587,
-		-6px 6px 0 #c0e587,
-		-7px 7px 0 #c0e587,
-		-8px 8px 0 #c0e587,
-		-9px 9px 0 #c0e587,
-		-10px 10px 0 #c0e587,
-		-11px 11px 0 #c0e587;
-	box-shadow: -1px 1px 0 #c0e587,
-		-2px 2px 0 #c0e587,
-		-3px 3px 0 #c0e587,
-		-4px 4px 0 #c0e587,
-		-5px 5px 0 #c0e587,
-		-6px 6px 0 #c0e587,
-		-7px 7px 0 #c0e587,
-		-8px 8px 0 #c0e587,
-		-9px 9px 0 #c0e587,
-		-10px 10px 0 #c0e587,
-		-11px 11px 0 #c0e587;
-	opacity: 0.5;
-}
+
 .logo a {
 	display: block;
-	padding: 8px 14.8148148% 18px;	/* 24 / 162 */
+	padding: 0px 14.8148148% 0px 0px;	/* 24 / 162 */
 }
 .logo img {
 	display: block;
+	margin-left: -4px;
 }

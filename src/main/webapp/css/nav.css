@@ -1,0 +1,29 @@
+.nav-primary {
+	padding: 1.2em 1em 1em;
+	text-transform: uppercase;
+
+	background: rgba(0, 0, 0, 0.6);
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+	-moz-background-clip: padding; 
+	-webkit-background-clip: padding-box; 
+	background-clip: padding-box; 
+}
+
+.nav-primary li {
+	font-weight: bold;
+	font-size: 0.875em; /*14px / 16px */
+	display: inline;
+}
+.nav-primary a {
+	color: #F8F5F2;
+	padding: 1.2em 1em 1em;
+	position: relative;
+	z-index: 1;
+}
+.nav-primary a:hover {
+	color: #659a41;
+}
