@@ -61,8 +61,4 @@
         </auth-constraint>
     </security-constraint>
     -->
-
-    <welcome-file-list>
-        <welcome-file>landing.html</welcome-file>
-    </welcome-file-list>
 </web-app>

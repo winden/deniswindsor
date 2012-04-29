@@ -1,7 +1,9 @@
+all "/", forward: "/index.groovy"
 all "/index", forward: "/index.groovy"
 all "/index.html", forward: "/index.groovy"
 
-all "/hello", forward: "hello_udacity.groovy"
+get "/udacity/hm1/hello", forward: "/udacity/hello.groovy"
+all "/udacity/hm2/rot13", forward: "/udacity/rot13.groovy"
 
 all "/disclaimer", forward: "/disclaimer.groovy"
 all "/disclaimer.html", forward: "/disclaimer.groovy"
