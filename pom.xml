@@ -33,7 +33,6 @@
 				<groupId>net.kindleit</groupId>
 				<artifactId>maven-gae-plugin</artifactId>
 				<version>${gaeplugin.version}</version>
-				<!--  For new users to have the appengine sdk automatically installed. -->
 				<executions> 
 					<execution>
 						<phase>compile</phase>
@@ -42,13 +41,7 @@
 							</goals>
 					</execution>
 				</executions>
-				<!-- 
-					You can delete that above new user <executions /> section, but you will have to run 
-					mvn gae:unpack
-					the first time you run and every time you change gae.version thereafter.
-					-->
 			</plugin>
-			<!-- Java compiler version -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -62,7 +55,7 @@
 				<groupId>org.codehaus.gmaven</groupId>
 				<artifactId>gmaven-plugin</artifactId>
 				<version>${gmaven.version}</version>
-				<dependencies><!-- http://groovy.329449.n5.nabble.com/GMaven-and-Groovy-1-8-td4345921.html -->
+				<dependencies>
 					<dependency>
 						<groupId>org.codehaus.groovy</groupId>
 						<artifactId>groovy-all</artifactId>
@@ -85,9 +78,7 @@
 							<goal>testCompile</goal>
 						</goals>
 						<configuration>
-							<!-- 1.8 not yet supported by plugin but 1.7 works
-							     here so long as we provide explicit version -->
-							<providerSelection>1.7</providerSelection>
+							<providerSelection>1.8</providerSelection>
 						</configuration>
 					</execution>
 				</executions>

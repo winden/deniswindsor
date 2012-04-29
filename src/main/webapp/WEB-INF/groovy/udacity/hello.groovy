@@ -1,5 +1,4 @@
-request.setAttribute 'contentHtml', 'hello_udacity.html'
 request.setAttribute 'contentTitle', 'Hello, udacity!'
-request.setAttribute 'contentBodyId', 'www-deniswindsor-co-uk-hello'
+request.setAttribute 'contentBodyId', 'www-deniswindsor-co-uk-udacity-hm1-hello'
 
 forward '/WEB-INF/templates/udacity/hello.html'
