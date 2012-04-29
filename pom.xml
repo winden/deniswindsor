@@ -16,6 +16,7 @@
 		<gmaven.version>1.4</gmaven.version>
 		<gae.version>1.6.5</gae.version>  
 		<gaeplugin.version>0.9.2</gaeplugin.version>
+		<groovy.version>1.8.6</groovy.version>
 	</properties>
 
 	<dependencies>
@@ -65,7 +66,7 @@
 					<dependency>
 						<groupId>org.codehaus.groovy</groupId>
 						<artifactId>groovy-all</artifactId>
-						<version>1.8.6</version>
+						<version>${groovy.version}</version>
 					</dependency>
 <!-- 
 					<dependency>
