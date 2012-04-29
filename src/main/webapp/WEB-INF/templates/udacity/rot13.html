@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title><%= request.getAttribute('contentTitle') %></title>
+		<link rel="shortcut icon" href="/images/dw_32.png" type="image/png">
+		<link rel="icon" href="/images/dw_32.png" type="image/png">
+	</head>
+	<body id="<%= request.getAttribute('contentBodyId') %>">
+		<h2>Enter some text to ROT13:</h2>
+		<form method="post">
+			<textarea name="text" style="height: 100px; width: 400px;">
+				<%= request.getAttribute('formText') %>
+			</textarea>
+			<br>
+			<input type="submit">
+		</form>
+	</body>
+</html>
