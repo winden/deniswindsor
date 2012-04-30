@@ -38,7 +38,7 @@
 						<phase>compile</phase>
 							<goals>
 								<goal>unpack</goal>
-						</goals>
+							</goals>
 					</execution>
 				</executions>
 			</plugin>
