@@ -1,4 +1,4 @@
-package uk.co.deniswindsor
+package uk.co.deniswindsor.utils
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

@@ -2,6 +2,8 @@ package uk.co.deniswindsor
 
 import org.junit.Test
 
+import uk.co.deniswindsor.utils.ObjectUnderTest;
+
 import static org.junit.Assert.assertThat
 import static org.hamcrest.CoreMatchers.is
 
