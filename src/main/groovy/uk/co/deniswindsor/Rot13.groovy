@@ -1,4 +1,4 @@
-package co.uk.deniswindsor
+package uk.co.deniswindsor
 
 public class Rot13 {
 

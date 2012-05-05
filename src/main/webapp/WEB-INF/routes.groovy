@@ -3,7 +3,10 @@ all "/index", forward: "/index.groovy"
 all "/index.html", forward: "/index.groovy"
 
 get "/udacity/hm1/hello", forward: "/udacity/hello.groovy"
+
 all "/udacity/hm2/rot13", forward: "/udacity/rot13.groovy"
+all "/udacity/hm2/signup", forward: "/udacity/signup.groovy"
+get "/udacity/hm2/signup_success", forward: "/udacity/signup_success.groovy"
 
 all "/disclaimer", forward: "/disclaimer.groovy"
 all "/disclaimer.html", forward: "/disclaimer.groovy"
