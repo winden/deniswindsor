@@ -98,4 +98,19 @@ public class SignupValidationUsernameTest {
 				validationResult, is(false)
 		)
 	}
+
+	@Test
+	public void shouldnotAcceptQuestionMarkInUsername() {
+	//given
+		def username = "1234567890123456789?"
+
+	//when
+		def validationResult = validation.checkUsername username
+
+	//then
+		assertThat(
+			"Question mark in username is not permitted",
+				validationResult, is(false)
+		)
+	}
 }
